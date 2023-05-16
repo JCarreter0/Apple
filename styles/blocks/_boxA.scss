@@ -1,0 +1,40 @@
+.m-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0;
+        width: 100%;
+        color: black;
+        ul {
+            display: flex;
+           
+               span {
+                    color: rgb(0, 0, 0);
+                    padding: 10px;
+                    font-size: 13px;
+                    &:hover{
+                        color: rgb(88, 191, 250);
+                        }
+                }
+            }
+        }
+                               
+        .btn {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background-color: #fff;
+            color: #000000;
+            border: none;
+            padding: 10px 20px;
+            font-size: 13px;
+           
+        }
+
+          .btn img {
+            height: 50px;
+        }
+         
+    

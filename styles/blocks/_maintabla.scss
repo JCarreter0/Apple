@@ -1,0 +1,64 @@
+.m-tittle {
+    @include flexCenter(row,space-around,center);
+    font-size: 20px;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(46, 43, 43);
+}
+
+.m-tittleB {
+    font-size: 20px;
+    color: rgba(139, 136, 136, 0.767);
+    font-size: 17px; 
+   
+
+ 
+       &:hover {
+        color: black;
+        text-decoration: underline        
+        }
+}
+.m-table {
+    @include flexCenter(row,space-around,center);
+    margin-top: 50px;
+    td {
+        text-align: center;
+    }
+
+    img{
+        height: 120px;
+    }
+    
+     h2{
+        width: 100%;
+        margin-bottom: 5px;
+     }
+     h5 {
+        width: 100%;
+        margin-bottom: 10px;
+        font-size: 17px;
+        color: #38393bb0;
+     }
+     
+     button {
+       background-color: #0051ff;
+       color: #ffffff;
+       border: none;
+       border-radius: 100px;
+       padding: 10px 20px;
+       font-size: 17px;
+       margin-top: 20px;
+   }
+      a {
+        color:#0051ff;
+        font-size: 17px;
+        margin-top: 25px;
+        &:hover {
+            color: #0051ff;
+            text-decoration: underline        
+            }
+      }
+
+
+    }
+     
