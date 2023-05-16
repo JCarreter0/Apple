@@ -1,0 +1,52 @@
+
+.m-acc {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    gap: 20px;
+    margin: 0px 300px;
+    margin-top: 50px;
+   
+   
+    .m-acc__img {
+        width: 100%;
+        height: 600px;
+        padding: 60px 50px 0 50px;
+        background-color: #f2f2f2;
+        background-image: url("https://www.apple.com/v/mac/home/bs/images/overview/retail/accessories_tile__cybkm8f034uq_medium.jpg");
+        background-size: 100%;
+        background-position: bottom;
+        background-repeat: no-repeat;
+        position: relative;
+
+       }
+
+   
+       h4{
+        font-size: 20px;
+       }
+      
+}
+
+.m-acc__button {
+    background-color: #0051ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 20px;
+    font-size: 17px;
+    margin: 10px;
+
+
+}
+
+.p-text {
+    font-size: 20 px;
+    margin-top: 10px;
+    color: rgb(138, 138, 138);
+}
+
+.m-h2 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
